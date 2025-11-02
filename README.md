@@ -3,26 +3,6 @@
 
 This repository implements a Transformer model for language modeling on the **Wikitext-103** dataset. It is designed for full reproducibility, with clear instructions for setup, training, evaluation, and result visualization.
 
----
-
-## 📁 Project Structure
-transform/
-├── scripts/
-│   └── run.sh                 # One-click script to run training & evaluation
-├── data/
-│   └── wikitext-103-raw-v1/   # Raw text data (downloaded separately)
-├── results/
-│   ├── accuracy_loss_comparison.png     
-│   ├── loss_comparison.png           
-│   └── loss_separate_comparison.png 
-├── train.py                   # Training script
-├── test.py                    # Evaluation script
-├── model.py                   # Transformer model definition
-├── requirements.txt           # Python dependencies
-├── README.md                  # This file
-└── LICENSE
-
----
 
 ## ⚙️ Environment Setup
 
