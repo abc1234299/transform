@@ -1,0 +1,15 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+logs/
+runs/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Ignore large dataset files
+wikitext-103-raw-v1/**/*.arrow
+wikitext-103-raw-v1/**/dataset_info.json
+wikitext-103-raw-v1/**/state.json
