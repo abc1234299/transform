@@ -1,15 +1,39 @@
-.ipynb_checkpoints/
-__pycache__/
-*.pyc
-.DS_Store
-logs/
-runs/
-checkpoints/
-*.pth
-*.pt
-*.ckpt
-
-# Ignore large dataset files
+# Ignore large files
 wikitext-103-raw-v1/**/*.arrow
 wikitext-103-raw-v1/**/dataset_info.json
 wikitext-103-raw-v1/**/state.json
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+*.so
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.swp
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.vcxproj.user
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
